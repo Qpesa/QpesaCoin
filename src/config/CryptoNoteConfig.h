@@ -67,7 +67,7 @@ Qpesad --print-genesis-tx --genesis-block-reward-address QPSAv2Fyavy8CXG8BPEbNeC
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "011401ff0001808084fea6dee11102ab7789dfa60bd86e5ea9f5c9203776b497630038e80fd72d53e3c76d795c36a02101eb93c289e24b27e2f5202a829ca674b2b9db46b7e55435f9ef2c493d2341439c";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
