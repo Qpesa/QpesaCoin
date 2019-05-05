@@ -251,7 +251,7 @@ const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
 const char     LATEST_VERSION_URL[]                          = "http://qpesacoin.eu3.org/";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+const std::string LICENSE_URL                                = "https://github.com/Qpesa/QpesaCoin/blob/development/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb5, 0x0e, 0x4a, 0x6a, 0xcf, 0x42, 0x57, 0x51, 0x65, 0xd9, 0x94, 0xb5, 0xb6, 0xc1, 0x43, 0xd9  }
