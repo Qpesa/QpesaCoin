@@ -177,7 +177,7 @@ add_dependencies(zedwallet version)
 
 # Finally build the binaries
 set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "Qpesad")
-set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
+set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "Qwallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
 set_property(TARGET WalletService PROPERTY OUTPUT_NAME "q-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "Qminer")
